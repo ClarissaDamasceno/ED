@@ -18,12 +18,6 @@ int main() {
     // armazenar os números do arquivo no array
     while (fscanf(file, "%d", &numeros[contador]) == 1) {
         contador++;
-
-	//LEMBRAR DE APAGAR
-        if (contador >= MAX_NUMEROS) {
-            printf("Excedido o número máximo de números (%d)\n", MAX_NUMEROS);
-            break;
-        }
     }
 
     fclose(file);
