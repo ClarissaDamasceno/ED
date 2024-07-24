@@ -3,7 +3,7 @@
 #include <time.h>
 
 #define MAX_NUMEROS 100001 // tamanho máximo do array
-#define BILLION  1000000000.0
+#define BILLION  1000000000.0 //converter o tempo em segundos
 
 int main() {
 	FILE *file;
