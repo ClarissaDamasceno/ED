@@ -118,7 +118,7 @@ struct timespec start2, end2; //calcula o tempo de execução do algoritmo
 		fprintf(file, "%d\n", numeros_selection[i]);
 	}
 ```
-> Por fim, os números ordenados são escritos em arquivos txt
+> Por fim, os números ordenados são escritos em arquivos de texto
 
 ## Comparação entre os algoritmos: Selection Sort X Insertion Sort
 <p align="justify"> Os dois algoritmos ordenaram os números de maneira correta e o 
